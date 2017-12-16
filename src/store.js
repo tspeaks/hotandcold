@@ -1,6 +1,5 @@
-import {createStore} from 'redux'
+import {createStore} from 'redux';
 
-import {trelloReducer} from './reducers';
+import reducer from './reducer';
 
-export default createStore(trelloReducer);
-
+export default createStore(reducer);
